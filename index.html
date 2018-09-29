@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <title>Week 3: Javascript, Day 3</title>
+  
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css">
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      
+      <!-- ------------- -->
+      <section class="title-slide">
+        <h3 class="title-text">JAVASCRIPT</h3>
+        <div class="sub-head">
+          <div class="sub-head-text"><span>09.29.18 - Day 3</span></div>
+        </div>
+      </section>
+      
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>Workshop Day</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span></span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Group Assignment: Represent an Art Movement</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Group Presentations @ 3:00</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Time Permitting: P5.js Primer</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!-- ------------- -->
+      <section class="child-slide">
+        <h5>GROUP ASSIGNMENT</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>Represent an Art Movement</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Create a single page website that either:</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Represents an art movement (a useful list is <a href="https://artlandapp.com/art-movements-and-styles/" target="_blank">here</a>)</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Is an homage to an artist's artwork</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="child-slide">
+        <h5>GROUP ASSIGNMENT</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>REQUIREMENTS</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Use at least one JS library</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Incorporate some level of interactivity (it doesn't need to be complex!) </span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Each person must have a role and be prepared to talk about it</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>You must create a Git repo for your project, and publish to a Github page</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="child-slide">
+        <h5>GROUP ASSIGNMENT</h5>
+        <div class="sub-head">
+          <div class="sub-head-text">
+            <span>More on Git requirement:</span>
+          </div>
+        </div>
+        <div class="child-slide-body">
+          <ul class="child-slide-body-list">
+            <li>
+              <div class="list-item-container">
+                +<span>Only one person needs to create the repo</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>Everyone else will be a contributor to that remote (demo)</span>
+              </div>
+            </li>
+            <li>
+              <div class="list-item-container">
+                +<span>We haven't covered collaborative Git practices, so you will need to coordinate</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!-- END SLIDES -->
+    </div>
+  </div>
+</body>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+<script>
+  // ---------------------------------------------
+  init();
+  
+  // ---------------------------------------------
+  function init() {
+    Reveal.initialize({
+      dependencies: [
+      { 
+        src: 'plugin/highlight/highlight.js', 
+        async: true, 
+        callback: function() { hljs.initHighlightingOnLoad(); } 
+      }
+      ]
+    });
+    
+    Reveal.configure({
+      slideNumber: true,
+      slideNumber: 'c/t'
+    });
+    
+  }
+</script>
+
+</html>
